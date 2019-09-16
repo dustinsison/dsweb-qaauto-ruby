@@ -16,4 +16,3 @@ Scenario: User can navigate through the navigation menu
 	Then user should see "Personal Log" header
 	When user clicks "Projects Log" navigation link
 	Then user should see "Projects Log" header
-	And navigation menu test browser will close

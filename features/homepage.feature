@@ -4,13 +4,11 @@ Feature: Homepage
 
 Scenario: User can see the default homepage on dustinsison.com
 
-	Given user is on homepage
+	Given user is on the homepage
 	Then user should see homepage header
-	And homepage test browser will close
 	
-Scenario: User sees the expected header content on the home page
+Scenario: User sees the expected video content on desktop browsers
 
-	Given user is on homepage
+	Given user is on the homepage
 	Then user should see homepage header
-	And user should see expected homepage header content
-	And homepage test browser will close
+	And user should see expected homepage video content

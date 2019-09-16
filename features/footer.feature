@@ -15,5 +15,4 @@ Scenario: User can see the expected footer content
 	When user clicks "LinkedIn" footer link
 	Then user should see "LinkedIn" profile
 	And browser goes back
-	When user sees expected Email footer link
-	And footer test browser will close
+	When user should see "Email" footer link
