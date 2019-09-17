@@ -7,8 +7,9 @@ Given(/^user is on the homepage$/) do
 end
 
 And(/^browser goes back$/) do
+  ## Commands the browser to go back a page
   WebDriver.navigate.back
-  p "Navigating back one page"
+  p "- Navigating back one page"
 end
 
 Given(/^user is on any page$/) do

@@ -27,11 +27,13 @@ Then(/^user sees expected footer content$/) do
 end
 
 When(/^user clicks "([^"]*)" footer link$/) do |arg|
+  # Clicks on the specified footer link
   WebDriver.find_element(:xpath, "//ul[@id='footer-menu']/li/a[normalize-space(text())='"+arg+"']").click
-  p "Clicked on " + arg + " footer link"
+  p "- Clicked on " + arg + " footer link"
 end
 
 Then(/^user should see "([^"]*)" profile$/) do |arg|
+  # Checks which profile is displayed, and validates that with the requested profile
   if arg == "Twitter"
     String expectedTitle = "Dustin Sison (@XMasterPrime) | Twitter"
     String actualTitle = WebDriver.title

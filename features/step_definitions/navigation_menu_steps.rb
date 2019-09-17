@@ -25,7 +25,7 @@ When(/^user hovers over "([^"]*)" navigation link$/) do |arg|
   ## Hovers over selected navigation link
   WebDriver.action.move_to(dropdown).perform
 
-  p "Hovering over " + arg + " navigation link"
+  p "- Hovering over " + arg + " navigation link"
 
   ## Gives two seconds for the submenu to load
   sleep(2)
