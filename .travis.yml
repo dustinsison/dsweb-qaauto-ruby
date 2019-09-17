@@ -1,5 +1,6 @@
 language: ruby
-rvm: 
-- 2.3.3
-- gem install hiptest-publisher
-- hiptest-publisher --only=tests --test-run-id=142480
+before_install:
+  - rvm install 2.3.3
+  - rvm use 2.3.3
+  - gem install hiptest-publisher
+  - hiptest-publisher --only=tests --test-run-id=142480
