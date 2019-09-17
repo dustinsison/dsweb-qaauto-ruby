@@ -3,4 +3,4 @@ before_install:
   - rvm install 2.3.3
   - rvm use 2.3.3
   - gem install hiptest-publisher
-  - hiptest-publisher -c hiptest-publisher.conf --token=1429811748290606834100832667303749663843214613307688107 --only=tests --test-run-id=142480
+  - hiptest-publisher -c hiptest-publisher.conf --token=1429811748290606834100832667303749663843214613307688107 --test-run-id=142480
