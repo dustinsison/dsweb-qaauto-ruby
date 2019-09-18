@@ -1,2 +1,5 @@
-/features/step_definitions/actionwords.rb
-/features/step_definitions/step_definitions.rb
+*~
+*.swp
+.DS_Store
+features/step_definitions/actionwords.rb
+features/step_definitions/step_definitions.rb
