@@ -5,5 +5,5 @@ before_install:
   - gem install hiptest-publisher
   - gem install cucumber
   - gem install gherkin
-  - hiptest-publisher -c hiptest-publisher.conf --token=1429811748290606834100832667303749663843214613307688107 --test-run-id=142480
+  - hiptest-publisher -c hiptest-publisher.conf --token=1429811748290606834100832667303749663843214613307688107 --test-run-id=301761
 install: skip
