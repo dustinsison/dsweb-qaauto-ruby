@@ -4,5 +4,6 @@ before_install:
   - rvm use 2.3.3
   - gem install cucumber
   - gem install gherkin
+  - gem install selenium-webdriver
   - cucumber
 install: skip
