@@ -7,11 +7,11 @@ before_install:
   - gem install cucumber
   - gem install gherkin
   - gem install selenium-webdriver
-  - cucumber
   - wget -N https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip -P ~/Downloads
   - unzip ~/Downloads/chromedriver_linux64.zip -d ~/Downloads
   - sudo mv -f ~/Downloads/chromedriver /usr/local/share/
   - sudo chmod +x /usr/local/share/chromedriver
   - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
   - sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
+  - cucumber
 install: skip
