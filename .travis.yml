@@ -4,6 +4,5 @@ before_install:
   - rvm use 2.3.3
   - gem install cucumber
   - gem install gherkin
-install: skip
-after_deploy:
   - cucumber
+install: skip
