@@ -1,0 +1,10 @@
+language: generic
+before_install:
+  - rvm install 2.3.3
+  - rvm use 2.3.3
+  - gem install hiptest-publisher
+  - gem install cucumber
+  - gem install gherkin
+install: skip
+after_deploy:
+  - cucumbergit
