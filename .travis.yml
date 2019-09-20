@@ -11,7 +11,8 @@ before_install:
   - sudo chmod +x /usr/local/share/chromedriver
   - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
   - sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
-  - bundle install
+  - chromedriver -v
+  - chromedriver-update
 #  - gem install hiptest-publisher
 #  - hiptest-publisher -c hiptest-publisher.conf --token=1429811748290606834100832667303749663843214613307688107 --test-run-id=301761
 script:
