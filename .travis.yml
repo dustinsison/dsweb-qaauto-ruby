@@ -6,12 +6,9 @@ before_install:
   - gem install cucumber
   - gem install gherkin
   - gem install selenium-webdriver
-  - wget -N https://chromedriver.storage.googleapis.com/2.27/chromedriver_linux64.zip -P ~/Downloads
-  - unzip ~/Downloads/chromedriver_linux64.zip
-  - sudo apt-get install libnss3
-  - sudo apt-get --only-upgrade install google-chrome-stable
-  - sudo cp chromedriver /usr/local/bin/.
-  - sudo chmod +x /usr/local/bin/chromedriver
+  - wget http://chromedriver.storage.googleapis.com/2.24/chromedriver_linux64.zip
+  - unzip chromedriver_linux64.zip -d /home/travis/virtualenv/ruby2.3.3/bin/
+  - export CHROME_BIN=chromium-browser
 #  - gem install hiptest-publisher
 #  - hiptest-publisher -c hiptest-publisher.conf --token=1429811748290606834100832667303749663843214613307688107 --test-run-id=301761
 script:
