@@ -7,7 +7,7 @@ before_install:
   - gem install gherkin
   - gem install selenium-webdriver
   - wget -N https://chromedriver.storage.googleapis.com/2.27/chromedriver_linux64.zip -P ~/Downloads
-  - unzip ~/Downloads/chromedriver_linux64.zip -d
+  - unzip ~/Downloads/chromedriver_linux64.zip
   - sudo apt-get install libnss3
   - sudo apt-get --only-upgrade install google-chrome-stable
   - sudo cp chromedriver /usr/local/bin/.
