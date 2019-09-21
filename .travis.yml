@@ -13,11 +13,11 @@ before_install:
   - gem install gherkin
   - gem install webdrivers
   - gem install chromedriver-helper
-  - wget http://chromedriver.storage.googleapis.com/2.30/chromedriver_mac64.zip
-  - unzip chromedriver_mac64.zip -d ~/
-  - sudo mv -f ~/chromedriver /usr/local/share/
-  - sudo chmod +x /usr/local/share/chromedriver
-  - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+#  - wget http://chromedriver.storage.googleapis.com/2.30/chromedriver_mac64.zip
+#  - unzip chromedriver_mac64.zip -d ~/
+#  - sudo mv -f ~/chromedriver /usr/local/share/
+#  - sudo chmod +x /usr/local/share/chromedriver
+#  - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
 #  - gem install hiptest-publisher
 #  - hiptest-publisher -c hiptest-publisher.conf --token=1429811748290606834100832667303749663843214613307688107 --test-run-id=301761
 script:
