@@ -6,7 +6,7 @@ before_install:
   - gem install cucumber
   - gem install gherkin
   - gem install webdrivers
-  - gem install chromedriver-helper
+  - brew install chromedriver-helper
   - wget http://chromedriver.storage.googleapis.com/2.30/chromedriver_linux64.zip
   - unzip chromedriver_linux64.zip -d ~/
   - sudo mv -f ~/chromedriver /usr/local/share/
