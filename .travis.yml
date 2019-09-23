@@ -1,6 +1,10 @@
+os: osx
 sudo: required
 language: generic
+addons:
+  chrome: stable
 before_install:
+  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   - rvm install 2.3.3
   - rvm use 2.3.3
   - gem install cucumber

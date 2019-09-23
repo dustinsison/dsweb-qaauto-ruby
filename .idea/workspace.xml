@@ -4,9 +4,6 @@
     <list default="true" id="bbf35d89-8486-413b-bf4c-ad1b60020140" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dsweb-qaauto-ruby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dsweb-qaauto-ruby.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/general_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/general_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +15,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__Subscriber_level_user_can_sign_in_with_valid_credentials__1_.rcov" NAME="Scenario: Subscriber-level user can sign in with valid credentials (1) Coverage Results" MODIFIED="1568871931231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -282,7 +282,7 @@
       <workItem from="1568837517584" duration="1418000" />
       <workItem from="1568843952310" duration="850000" />
       <workItem from="1569012490117" duration="2966000" />
-      <workItem from="1569272569153" duration="476000" />
+      <workItem from="1569272569153" duration="564000" />
     </task>
     <servers />
   </component>
@@ -297,6 +297,20 @@
             <State>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
