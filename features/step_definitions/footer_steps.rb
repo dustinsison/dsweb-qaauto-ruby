@@ -30,6 +30,8 @@ When(/^user clicks "([^"]*)" footer link$/) do |arg|
   # Clicks on the specified footer link
   WebDriver.find_element(:xpath, "//ul[@id='footer-menu']/li/a[normalize-space(text())='"+arg+"']").click
   p "- Clicked on " + arg + " footer link"
+  # Adds 3 second wait for headless mode
+  sleep(3)
 end
 
 Then(/^user should see "([^"]*)" profile$/) do |arg|

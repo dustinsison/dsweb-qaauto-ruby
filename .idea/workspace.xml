@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf35d89-8486-413b-bf4c-ad1b60020140" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/general_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/general_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsweb-qaauto-ruby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dsweb-qaauto-ruby.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/footer_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/footer_steps.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +283,8 @@
       <workItem from="1568837517584" duration="1418000" />
       <workItem from="1568843952310" duration="850000" />
       <workItem from="1569012490117" duration="2966000" />
-      <workItem from="1569272569153" duration="1187000" />
+      <workItem from="1569272569153" duration="1318000" />
+      <workItem from="1569277247683" duration="290000" />
     </task>
     <servers />
   </component>
@@ -326,7 +329,7 @@
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_see_blog_entry_pages__1_.rcov" NAME="Scenario: User can see blog entry pages (1) Coverage Results" MODIFIED="1568242283192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_sees_error_message_on_log_in_page_when_logging_in_with_invalid_credentials.rcov" NAME="Scenario: User sees error message on log-in page when logging in with invalid credentials Coverage Results" MODIFIED="1568752722921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@blog_feature.rcov" NAME="blog.feature Coverage Results" MODIFIED="1568753555668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
-    <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_see_the_expected_footer_content.rcov" NAME="Scenario: User can see the expected footer content Coverage Results" MODIFIED="1568753584332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
+    <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_see_the_expected_footer_content.rcov" NAME="Scenario: User can see the expected footer content Coverage Results" MODIFIED="1569277495160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_sees_error_message_on_log_in_page_when_logging_in_with_invalid_credentials__1_.rcov" NAME="Scenario: User sees error message on log-in page when logging in with invalid credentials (1) Coverage Results" MODIFIED="1568242243240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_see_blog_listing_pages__1_.rcov" NAME="Scenario: User can see blog listing pages (1) Coverage Results" MODIFIED="1568242258641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_see_several_project_pages.rcov" NAME="Scenario: User can see several project pages Coverage Results" MODIFIED="1568675225486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
