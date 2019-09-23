@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbf35d89-8486-413b-bf4c-ad1b60020140" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/general_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/general_steps.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +281,7 @@
       <workItem from="1568837517584" duration="1418000" />
       <workItem from="1568843952310" duration="850000" />
       <workItem from="1569012490117" duration="2966000" />
-      <workItem from="1569272569153" duration="1063000" />
+      <workItem from="1569272569153" duration="1187000" />
     </task>
     <servers />
   </component>
