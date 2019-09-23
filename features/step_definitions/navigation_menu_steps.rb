@@ -1,6 +1,6 @@
 When(/^user clicks "([^"]*)" navigation link$/) do |arg|
-  ## Gives a second for the navigation menu to load
-  sleep(1)
+  ## Gives 3 seconds for the navigation menu to load
+  sleep(3)
 
   ## Select listed navigation link
   WebDriver.find_element(:xpath, "//ul[@id='primary-menu']/li/a[normalize-space(text())='"+arg+"']").click
