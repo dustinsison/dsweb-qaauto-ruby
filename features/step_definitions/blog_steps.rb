@@ -36,11 +36,11 @@ end
 
 Then(/^user should see blog entry page$/) do
   # Checks that the header is correct to confirm the correct blog entry page
-  if expect(WebDriver.find_element(:class, "entry-header"))
-    String result = WebDriver.find_element(:class, "entry-title").text
-    p "Test passed; Appearing to be on " + result + " blog entry page"
-  else
+  if WebDriver.find_element(:class, "entry-header") == ""
     String result = WebDriver.find_element(:class, "entry-title").text
     p "Test failed; Appearing to be on " + result + " page"
+  else
+    String result = WebDriver.find_element(:class, "entry-title").text
+    p "Test passed; Appearing to be on " + result + " blog entry page"
   end
 end

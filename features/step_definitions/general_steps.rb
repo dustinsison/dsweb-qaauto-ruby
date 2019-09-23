@@ -22,6 +22,8 @@ And(/^browser goes back$/) do
   ## Commands the browser to go back a page
   WebDriver.navigate.back
   p "- Navigating back one page"
+  # Wait 2 seconds
+  sleep(2)
 end
 
 Given(/^user is on any page$/) do
