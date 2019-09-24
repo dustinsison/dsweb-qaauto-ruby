@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbf35d89-8486-413b-bf4c-ad1b60020140" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/blog_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/blog_steps.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/navigation_menu_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/navigation_menu_steps.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -283,7 +284,7 @@
       <workItem from="1568843952310" duration="850000" />
       <workItem from="1569012490117" duration="2966000" />
       <workItem from="1569272569153" duration="1318000" />
-      <workItem from="1569277247683" duration="4342000" />
+      <workItem from="1569277247683" duration="5747000" />
     </task>
     <servers />
   </component>

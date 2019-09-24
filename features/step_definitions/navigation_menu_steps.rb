@@ -26,6 +26,8 @@ Then(/^user should see "([^"]*)" header$/) do |arg|
 end
 
 When(/^user hovers over "([^"]*)" navigation link$/) do |arg|
+  sleep(3)
+
   ## Finds navigation link to hover over
   dropdown = WebDriver.find_element(:id, "menu-item-75")
 

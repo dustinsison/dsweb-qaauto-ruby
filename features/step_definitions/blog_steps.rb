@@ -22,6 +22,8 @@ Then(/^user should see "([^"]*)" blog listing page$/) do |arg|
 end
 
 And(/^user clicks on "([^"]*)" blog link$/) do |arg|
+  # Waits a second before clicking the blog link
+  sleep(1)
   # Finds link to specified blog and clicks it
   WebDriver.find_element(:xpath, "//ul[@id='primary-menu']/li/a[normalize-space(text())='"+arg+"']").click
   p "- Clicked on " + arg + "blog link"
