@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bbf35d89-8486-413b-bf4c-ad1b60020140" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/blog_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/blog_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/navigation_menu_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/navigation_menu_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dsweb-qaauto-ruby.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dsweb-qaauto-ruby.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/general_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/general_steps.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -284,7 +285,9 @@
       <workItem from="1568843952310" duration="850000" />
       <workItem from="1569012490117" duration="2966000" />
       <workItem from="1569272569153" duration="1318000" />
-      <workItem from="1569277247683" duration="5747000" />
+      <workItem from="1569277247683" duration="6198000" />
+      <workItem from="1569351669216" duration="15000" />
+      <workItem from="1569351736355" duration="1930000" />
     </task>
     <servers />
   </component>
@@ -322,7 +325,7 @@
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__Subscriber_level_user_can_sign_in_with_valid_credentials.rcov" NAME="Scenario: Subscriber-level user can sign in with valid credentials Coverage Results" MODIFIED="1568752697277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@homepage_feature.rcov" NAME="homepage.feature Coverage Results" MODIFIED="1568673125953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@accounts_feature.rcov" NAME="accounts.feature Coverage Results" MODIFIED="1568753178363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
-    <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_navigate_through_the_navigation_menu.rcov" NAME="Scenario: User can navigate through the navigation menu Coverage Results" MODIFIED="1569285093160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
+    <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_navigate_through_the_navigation_menu.rcov" NAME="Scenario: User can navigate through the navigation menu Coverage Results" MODIFIED="1569354083716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@test.rcov" NAME="test Coverage Results" MODIFIED="1568230065278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_see_blog_entry_pages.rcov" NAME="Scenario: User can see blog entry pages Coverage Results" MODIFIED="1568240993133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />
     <SUITE FILE_PATH="coverage/dsweb_qaauto_ruby@Scenario__User_can_see_blog_listing_pages.rcov" NAME="Scenario: User can see blog listing pages Coverage Results" MODIFIED="1568242303588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="dsweb-qaauto-ruby" />

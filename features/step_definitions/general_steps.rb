@@ -1,8 +1,8 @@
 # Instantiates the webdriver to be used globally
 
 require 'selenium-webdriver'
-# require 'rspec/expectations'
-# # include RSpec::Matchers
+require 'rspec/expectations'
+include RSpec::Matchers
 
 options = Selenium::WebDriver::Chrome::Options.new
   options.add_argument('--headless')
