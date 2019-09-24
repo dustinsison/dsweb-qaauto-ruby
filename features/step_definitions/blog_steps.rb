@@ -22,6 +22,8 @@ Then(/^user should see "([^"]*)" blog listing page$/) do |arg|
 end
 
 And(/^user clicks on "([^"]*)" blog link$/) do |arg|
+  # Waits a second before clicking the blog link
+  sleep(1)
   # Finds link to specified blog and clicks it
   WebDriver.find_element(:xpath, "//ul[@id='primary-menu']/li/a[normalize-space(text())='"+arg+"']").click
   p "- Clicked on " + arg + "blog link"
@@ -36,11 +38,11 @@ end
 
 Then(/^user should see blog entry page$/) do
   # Checks that the header is correct to confirm the correct blog entry page
-  if expect(WebDriver.find_element(:class, "entry-header"))
-    String result = WebDriver.find_element(:class, "entry-title").text
-    p "Test passed; Appearing to be on " + result + " blog entry page"
-  else
+  if WebDriver.find_element(:class, "entry-header") == ""
     String result = WebDriver.find_element(:class, "entry-title").text
     p "Test failed; Appearing to be on " + result + " page"
+  else
+    String result = WebDriver.find_element(:class, "entry-title").text
+    p "Test passed; Appearing to be on " + result + " blog entry page"
   end
 end

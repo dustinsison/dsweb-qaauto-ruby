@@ -5,9 +5,12 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="ruby-2.5.3-p105" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="childprocess (v0.9.0, ruby-2.5.3-p105) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.10.0, ruby-2.5.3-p105) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.2.2, ruby-2.5.3-p105) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.141.0, ruby-2.5.3-p105) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="childprocess (v2.0.0, RVM: ruby-2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.3, RVM: ruby-2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v12.3.3, RVM: ruby-2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.8.2, RVM: ruby-2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.8.0, RVM: ruby-2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubyzip (v1.2.4, RVM: ruby-2.6.1) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.142.4, RVM: ruby-2.6.1) [gem]" level="application" />
   </component>
 </module>

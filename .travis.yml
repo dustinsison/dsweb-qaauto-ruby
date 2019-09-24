@@ -1,18 +1,17 @@
-language: generic
+os: osx
 sudo: required
+language: generic
 addons:
   chrome: stable
 before_install:
-  - rvm install 2.3.3
-  - rvm use 2.3.3
   - gem install cucumber
   - gem install gherkin
-  - gem install selenium-webdriver
-  - wget -N https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip -P ~/Downloads
-  - unzip ~/Downloads/chromedriver_linux64.zip -d ~/Downloads
-  - sudo mv -f ~/Downloads/chromedriver /usr/local/share/
-  - sudo chmod +x /usr/local/share/chromedriver
-  - sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
-  - sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
+  - gem install webdrivers
+  - gem install rspec
+  - gem install rspec-expectations
+  - HOMEBREW_NO_AUTO_UPDATE=1 brew cask install chromedriver
+  - gem install chromedriver-helper
+#  - gem install hiptest-publisher
+#  - hiptest-publisher -c hiptest-publisher.conf --token=1429811748290606834100832667303749663843214613307688107 --test-run-id=301761
+script:
   - cucumber
-install: skip

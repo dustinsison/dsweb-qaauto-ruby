@@ -1,9 +1,16 @@
 When(/^user clicks "([^"]*)" navigation link$/) do |arg|
-  ## Gives a second for the navigation menu to load
-  sleep(1)
+  ## Gives 5 seconds for the navigation menu to load
+  sleep(5)
 
-  ## Select listed navigation link
-  WebDriver.find_element(:xpath, "//ul[@id='primary-menu']/li/a[normalize-space(text())='"+arg+"']").click
+  WebDriver.find_element(:xpath, "//ul[@id='primary-menu']/li/a[normalize-space(text())='"+arg+"']")
+
+  # ## Wait for listed navigation link to be clickable, then click it.
+  # navwait = Selenium::WebDriver::Wait.new(:timeout => 10)
+  #
+  # navwait.until {
+  # element = WebDriver.find_element(:xpath, "//ul[@id='primary-menu']/li/a[normalize-space(text())='"+arg+"']")
+  #   element.click
+  # }
 
   p "- Clicked " + arg + " navigation link"
 end
@@ -19,6 +26,8 @@ Then(/^user should see "([^"]*)" header$/) do |arg|
 end
 
 When(/^user hovers over "([^"]*)" navigation link$/) do |arg|
+  sleep(3)
+
   ## Finds navigation link to hover over
   dropdown = WebDriver.find_element(:id, "menu-item-75")
 
