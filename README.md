@@ -1,7 +1,7 @@
 # dsweb-qaauto-ruby
 Automated tests for dustinsison.com written in Ruby
 
-###Update Log:
+### Update Log:
 [Sept 24, 2019] - Updated Readme. Added integration with TravisCI.
 
 ### Introduction
@@ -33,10 +33,10 @@ If you're running the project locally, you'll need to install Ruby 2.3.3 and all
 - Navigation Menu
 - Project pages
 
-###Coming Soon:
+### Coming Soon:
 Trello Board available here: https://trello.com/b/buBWl99d/dustinsisoncom-qa-automation
 
-###Credits:
+### Credits:
 Dustin Sison
 
 Article used for initial setup: http://www.seleniumframework.com/basic-tutorial/setup-ruby-and-components/
