@@ -3,6 +3,8 @@ sudo: required
 language: generic
 addons:
   chrome: stable
+notifications:
+  slack: gamingxlife:VcLyLdO7JWpWgypjiQxML30w
 before_install:
   - gem install cucumber
   - gem install gherkin
