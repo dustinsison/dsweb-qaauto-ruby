@@ -1,6 +1,6 @@
-require 'selenium-webdriver'
 
-Given(/^user is on login page$/) do
+
+Given(/^user is on login_page$/) do
   WebDriver.navigate.to "https://dustinsison.com/wp-login.php"
   p "Opened browser to login page"
 end
@@ -11,14 +11,16 @@ When(/^user clicks to sign\-in with credentials$/) do
 end
 
 When(/^user inputs "([^"]*)" in username field$/) do |arg|
+  account_test_data = dsweb_test_data['account_data']
   # Enters username in username field
-  WebDriver.find_element(:id, "user_login").send_keys(arg)
+  WebDriver.find_element(:id, "user_login").send_keys(account_test_data[arg])
   p "- Entered " + arg + " in the username field"
 end
 
 And(/^user inputs "(.*?)" in password field$/) do |arg|
+  account_test_data = dsweb_test_data['account_data']
   # Enters password in password field
-  WebDriver.find_element(:id, "user_pass").send_keys(arg)
+  WebDriver.find_element(:id, "user_pass").send_keys(account_test_data[arg])
   p "- Entered " + arg + " in the password field"
 end
 

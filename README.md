@@ -2,6 +2,7 @@
 Automated tests for dustinsison.com written in Ruby
 
 ### Update Log:
+[Oct 1, 2019] - Added GemFile, integrated yaml files for data organization.
 [Sept 24, 2019] - Updated Readme. Added integration with TravisCI.
 
 ### Introduction

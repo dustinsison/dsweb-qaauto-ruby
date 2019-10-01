@@ -13,4 +13,4 @@ Feature: Footer
     When user clicks "LinkedIn" footer link
     Then user should see "LinkedIn" profile
     And browser goes back
-    When user should see "Email" footer link
+    When user can see email_link in footer

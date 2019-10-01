@@ -35,38 +35,18 @@ When(/^user clicks "([^"]*)" footer link$/) do |arg|
 end
 
 Then(/^user should see "([^"]*)" profile$/) do |arg|
+  # Pulls in test data for profile page titles
+  profile_title = dsweb_test_data['social_media_page_title']
   # Checks which profile is displayed, and validates that with the requested profile
-  if arg == "Twitter"
-    String expectedTitle = "Dustin Sison (@XMasterPrime) | Twitter"
-    String actualTitle = WebDriver.title
-    if actualTitle == expectedTitle
-      p "- Twitter profile page verified"
-    else
-      p "- Twitter profile page not verified; please manually check this link"
-      p "-- " + actualTitle
-    end
-  elsif arg == "GitHub"
-    String expectedTitle = "dustinsison (Dustin Sison) · GitHub"
-    String actualTitle = WebDriver.title
-    if actualTitle == expectedTitle
-      p "- GitHub profile page verified"
-    else
-      p "- GitHub profile page not verified; please manually check this link"
-      p "-- " + actualTitle
-    end
-  elsif arg == "LinkedIn"
-    String expectedTitle = "Dustin Sison - Automation Engineer - Moovweb | LinkedIn"
-    String actualTitle = WebDriver.title
-    if actualTitle == expectedTitle
-      p "- LinkedIn profile page verified"
-    else
-      p "- LinkedIn profile page not verified; please manually check this link"
-      p "-- " + actualTitle
-    end
+  if WebDriver.title == profile_title[arg]
+    p "- " + arg + " profile page verified"
+  else
+    p "- " + arg + " profile page not verified; please manually check this link"
+    p "-- " + WebDriver.title
   end
 end
 
-When(/^user should see "([^"]*)" footer link$/) do |arg|
+When(/^user can see email_link in footer$/) do
   ## Pulls the Email link in the footer
   String mailto = WebDriver.find_element(:xpath, "//ul[@id='footer-menu']/li[4]/a").attribute("href")
   ## Verifies that the email link is in the expected "mailto" format

@@ -1,0 +1,10 @@
+account_data:
+  QA Username: "qa_user"
+  QA Password: "l85FE0CZ$R#biQpR)SI&N6$5"
+  Invalid QA Username: "invalid_qa_user"
+  Invalid QA Password: "l85FE0CZ$R#biQpR)SI&N6$4"
+
+social_media_page_title:
+  Twitter: "Dustin Sison (@XMasterPrime) | Twitter"
+  Linkedin: "Dustin Sison - Automation Engineer - Moovweb | LinkedIn"
+  Github: "dustinsison (Dustin Sison) · GitHub"
