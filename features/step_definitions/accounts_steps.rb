@@ -41,10 +41,9 @@ Then(/^user should see "([^"]*)" page header$/) do |arg|
 end
 
 Then(/^user should see login "([^"]*)" error message$/) do |arg|
-  String error_result1 = WebDriver.find_element(:xpath, "//div[@id='login_error']/strong").text
-  String error_result2 = WebDriver.find_element(:xpath, "//div[@id='login_error']").text
+  String error_result1 = WebDriver.find_element(:xpath, "//div[@id='login_error']").text
   if error_result1 == arg
-    p "- Expected log-in error is displayed: " + error_result2
+    p "- Expected log-in error is displayed: " + error_result1
   elsif error_result1 != arg
     p "- Unexpected result for invalid log-in test"
   end
