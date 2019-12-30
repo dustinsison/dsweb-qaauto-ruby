@@ -6,7 +6,7 @@ addons:
 notifications:
   slack: gamingxlife:VcLyLdO7JWpWgypjiQxML30w
 before_install:
-  - gem install cucumber
+  - gem install cucumber 2.2.0
   - gem install gherkin
   - gem install webdrivers
   - gem install rspec
