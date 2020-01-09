@@ -9,7 +9,7 @@ Feature: Test Page
     Then user can see "test" on "input_field" page_element
     When user clicks on "single_sel_field" page_element
     And user clicks on "five" in "single_sel_field" page_element
-    Then user can see "test" selected on "single_sel_field" page_element
+    Then user can see "five" selected on "single_sel_field" page_element
     When user clicks on "multi_sel_field" page_element
     And user clicks on "four" in "multi_sel_field" page_element
     And user clicks on "five" in "multi_sel_field" page_element
