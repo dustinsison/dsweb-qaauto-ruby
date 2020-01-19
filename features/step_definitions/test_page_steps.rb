@@ -40,7 +40,7 @@ And(/^user clicks on "([^"]*)" in "([^"]*)" page_element$/) do |option, id|
   p "Clicked on option " + option + " in element " + id
 end
 
-Then(/^user can see "([^"]*)" selected on "([^"]*)" page_element$/) do |option, id|
+ Then(/^user can see "([^"]*)" selected on "([^"]*)" page_element$/) do |option, id|
   String selected = WebDriver.find_element(:xpath, "//select[@id='"+id+"']/option[text()='"+option+"']").attribute("active")
   p selected
     p "Option " +option+ " is selected."

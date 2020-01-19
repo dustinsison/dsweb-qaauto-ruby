@@ -21,5 +21,5 @@ Feature: Test Page
     Then user can see "dropdown_three" selected on "dropdown" page_element
     When user clicks on "output_field" page_element
     And user inputs "50" on "output_field" page_element
-    And user drags slider right on "output_field" page_element
+    And user drags slider "right" on "output_field" page_element
     Then user can see "150" on "output_field" page_element
